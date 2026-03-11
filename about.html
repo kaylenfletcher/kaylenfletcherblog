@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary Meta -->
+  <title>About Kaylen Fletcher, OTR/L | Pediatric OT & DIRFloortime® Clinician</title>
+  <meta name="description" content="Learn about Kaylen Fletcher, OTR/L — a pediatric occupational therapist dedicated to play-based therapy, DIRFloortime®, and helping children thrive across Tennessee." />
+  <link rel="canonical" href="https://kaylenfletcher.com/about.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="profile" />
+  <meta property="og:title"       content="About Kaylen Fletcher, OTR/L | Pediatric OT & DIRFloortime® Clinician" />
+  <meta property="og:description" content="Learn about Kaylen Fletcher, OTR/L — a pediatric occupational therapist dedicated to play-based therapy and DIRFloortime®." />
+  <meta property="og:url"         content="https://kaylenfletcher.com/about.html" />
+  <meta property="og:image"       content="https://kaylenfletcher.com/assets/images/og-kaylen-fletcher.png" />
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="About Kaylen Fletcher, OTR/L" />
+  <meta name="twitter:description" content="Pediatric OT, DIRFloortime® Certificate of Proficiency, and passionate play-based clinician." />
+  <meta name="twitter:image"       content="https://kaylenfletcher.com/assets/images/og-kaylen-fletcher.png" />
+
+  <!-- Fonts & Styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Baloo+2:wght@700;800&display=swap" rel="stylesheet" />
+  <style>
+/* ============================================================
+   Kaylen Fletcher, OTR/L — Shared Stylesheet
+   kaylenfletcher.com
+   ============================================================ */
+
+/* ── RESET & BASE ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --purple:  #7B61C4;
+  --purple2: #EDE8F8;
+  --yellow:  #F7C948;
+  --yellow2: #FEF6DD;
+  --coral:   #F47B5E;
+  --coral2:  #FEF0EC;
+  --green:   #5BBF8A;
+  --green2:  #E8F8F0;
+  --bg:      #FDFAF5;
+  --text:    #2D2A3E;
+  --muted:   #7A7690;
+  --white:   #FFFFFF;
+  --border:  3px solid var(--text);
+  --shadow:  6px 6px 0 var(--text);
+  --shadow-sm: 3px 3px 0 var(--text);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+img { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+
+/* ── SCATTERED STARS ── */
+body::before {
+  content: "✦ ✶ ✦ ✶ ✦ ✶ ✦";
+  position: fixed;
+  top: 44px; right: 64px;
+  font-size: 0.58rem;
+  color: var(--yellow);
+  letter-spacing: 18px;
+  opacity: 0.45;
+  pointer-events: none;
+  z-index: 0;
+  transform: rotate(14deg);
+}
+
+/* ── TYPOGRAPHY ── */
+h1, h2, h3, h4 {
+  font-family: 'Baloo 2', cursive;
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--text);
+}
+h1 { font-size: clamp(2.4rem, 5vw, 3.6rem); margin-bottom: 16px; }
+h2 { font-size: clamp(1.8rem, 3.5vw, 2.5rem); margin-bottom: 20px; }
+h3 { font-size: clamp(1.1rem, 2.5vw, 1.35rem); margin-bottom: 10px; }
+
+.ww {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: var(--yellow);
+  text-underline-offset: 5px;
+}
+.squiggle {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: var(--coral);
+  text-underline-offset: 6px;
+}
+
+/* ── LAYOUT ── */
+.page-wrap {
+  position: relative;
+  z-index: 1;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 28px 80px;
+}
+
+/* ── SITE HEADER / NAV ── */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  background: var(--white);
+  border-bottom: var(--border);
+}
+.site-nav {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 28px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.nav-logo {
+  font-family: 'Baloo 2', cursive;
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: var(--text);
+  flex-shrink: 0;
+}
+.nav-logo .accent { color: var(--purple); }
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  list-style: none;
+}
+.nav-links a {
+  font-weight: 700;
+  font-size: 0.88rem;
+  padding: 6px 14px;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  transition: background 0.15s, border-color 0.15s, box-shadow 0.15s;
+  white-space: nowrap;
+  display: block;
+}
+.nav-links a:hover {
+  background: var(--purple2);
+  border-color: var(--text);
+  box-shadow: var(--shadow-sm);
+}
+.nav-links a.active {
+  background: var(--purple2);
+  border-color: var(--purple);
+  color: var(--purple);
+  font-weight: 900;
+}
+.nav-links .nav-cta a {
+  background: var(--yellow);
+  border: 2px solid var(--text);
+  box-shadow: var(--shadow-sm);
+  font-weight: 900;
+}
+.nav-links .nav-cta a:hover {
+  background: var(--coral);
+  color: var(--white);
+}
+
+/* ── HAMBURGER ── */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 40px; height: 40px;
+  background: none;
+  border: 2px solid var(--text);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 8px;
+  box-shadow: var(--shadow-sm);
+}
+.nav-toggle span {
+  display: block;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+  transition: transform 0.2s, opacity 0.2s;
+}
+.nav-toggle[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.nav-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+.nav-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* ── SECTION LABEL ── */
+.section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.75rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--purple);
+  margin-bottom: 10px;
+}
+.section-label::before { content: "✦"; font-size: 0.7rem; color: var(--yellow); }
+
+/* ── SQUIGGLY DIVIDER ── */
+.squig {
+  border: none;
+  height: 20px;
+  margin: 8px 0 52px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='20' viewBox='0 0 80 20'%3E%3Cpath d='M0 10 Q10 0 20 10 Q30 20 40 10 Q50 0 60 10 Q70 20 80 10' fill='none' stroke='%23d9d3f0' stroke-width='2.5'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-position: center;
+}
+
+/* ── STICKER ── */
+.sticker {
+  display: inline-block;
+  background: var(--yellow);
+  color: var(--text);
+  border: 2.5px solid var(--text);
+  border-radius: 50px;
+  padding: 7px 16px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow-sm);
+  transform: rotate(-1.5deg);
+}
+.sticker.coral  { background: var(--coral);  color: var(--white); border-color: var(--text); }
+.sticker.green  { background: var(--green);  color: var(--white); border-color: var(--text); }
+.sticker.purple { background: var(--purple); color: var(--white); border-color: var(--text); }
+.sticker.r-pos  { transform: rotate(1.2deg); }
+.sticker.r-neg  { transform: rotate(-1.8deg); }
+
+/* ── PILLS ── */
+.pill-row { display: flex; flex-wrap: wrap; gap: 10px; }
+.pill {
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  border: 2px solid var(--text);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.15s, box-shadow 0.15s;
+  display: inline-block;
+}
+.pill:hover { transform: translate(-1px,-1px); box-shadow: 4px 4px 0 var(--text); }
+.pill-p { background: var(--purple2); color: var(--purple); }
+.pill-c { background: var(--coral2);  color: var(--coral);  }
+.pill-y { background: var(--yellow2); color: #9a7212;       }
+.pill-g { background: var(--green2);  color: #2a8057;       }
+
+/* ── PAGE HEADER (inner pages) ── */
+.page-header {
+  border-top: 10px solid var(--purple); /* default — overridden by ph-* classes */
+  border-bottom: var(--border);
+  padding: 52px 0 48px;
+  position: relative;
+  overflow: hidden;
+  background: var(--purple2);
+}
+/* polka dot texture */
+.page-header::before {
+  content: "";
+  position: absolute; inset: 0;
+  background-image: radial-gradient(circle, rgba(45,42,62,0.07) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+  pointer-events: none;
+}
+.page-header .page-wrap { padding-bottom: 0; }
+.page-header h1 { margin-bottom: 12px; }
+.page-lead {
+  font-size: 1.02rem;
+  color: var(--muted);
+  line-height: 1.7;
+  max-width: 600px;
+  font-weight: 600;
+}
+
+/* ── PAGE HEADER COLOUR VARIANTS ── */
+.page-header.ph-yellow {
+  background: var(--yellow);
+  border-top-color: #c4920f;
+}
+.page-header.ph-yellow .page-lead { color: #6b5000; }
+.page-header.ph-yellow::before {
+  background-image: radial-gradient(circle, rgba(45,42,62,0.10) 1.5px, transparent 1.5px);
+}
+
+.page-header.ph-coral {
+  background: var(--coral2);
+  border-top-color: var(--coral);
+}
+
+.page-header.ph-green {
+  background: var(--green2);
+  border-top-color: var(--green);
+}
+
+.page-header.ph-purple {
+  background: var(--purple2);
+  border-top-color: var(--purple);
+}
+
+/* ── BREADCRUMB ── */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+.breadcrumb a { color: var(--purple); text-decoration: underline; }
+.breadcrumb span { opacity: 0.5; }
+.page-header.ph-yellow .breadcrumb { color: rgba(45,42,62,0.55); }
+.page-header.ph-yellow .breadcrumb a { color: var(--text); }
+.page-header.ph-yellow .section-label { color: rgba(45,42,62,0.65); }
+
+/* ── HERO (home page) ── */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 52px;
+  align-items: center;
+  padding: 72px 0 60px;
+}
+.hero-sub {
+  font-size: 1.05rem;
+  color: var(--muted);
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+/* ── HERO CARD ── */
+.hero-card {
+  background: var(--white);
+  border: var(--border);
+  border-radius: 24px;
+  padding: 36px 28px 32px;
+  box-shadow: var(--shadow);
+  position: relative;
+}
+.card-top-strip {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 10px;
+  background: var(--purple);
+  border-radius: 20px 20px 0 0;
+}
+.avatar {
+  width: 90px; height: 90px;
+  border-radius: 50%;
+  background: var(--purple2);
+  border: var(--border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 2.4rem;
+  margin: 16px auto 18px;
+  overflow: hidden;
+}
+.avatar img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
+.card-name {
+  font-family: 'Baloo 2', cursive;
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-align: center;
+  color: var(--text);
+  margin-bottom: 2px;
+}
+.card-title {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+
+/* ── CRED CHIP (hero card) ── */
+.cred {
+  border: 2px solid var(--text);
+  border-radius: 14px;
+  padding: 13px 16px;
+  margin-bottom: 10px;
+}
+.cred.purple { background: var(--purple2); }
+.cred.coral  { background: var(--coral2);  }
+.cred.yellow { background: var(--yellow2); }
+.cred.green  { background: var(--green2);  }
+.cred h5 {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: 900;
+  margin-bottom: 4px;
+}
+.cred.purple h5 { color: var(--purple); }
+.cred.coral  h5 { color: var(--coral);  }
+.cred.yellow h5 { color: #9a7212;       }
+.cred.green  h5 { color: var(--green);  }
+.cred p { font-size: 0.88rem; font-weight: 700; color: var(--text); line-height: 1.4; }
+
+/* ── ABOUT GRID ── */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+.about-text p {
+  font-size: 1.04rem;
+  line-height: 1.82;
+  color: #4a4760;
+  margin-bottom: 16px;
+}
+.about-text p strong { color: var(--purple); font-weight: 800; }
+
+/* ── FUN CARDS ── */
+.fun-cards { display: flex; flex-direction: column; gap: 14px; }
+.fun-card {
+  background: var(--white);
+  border: 2.5px solid var(--text);
+  border-radius: 18px;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 4px 4px 0 var(--text);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.fun-card:hover { box-shadow: 6px 6px 0 var(--text); }
+.fun-cards .fun-card:nth-child(1) { transform: rotate(0.8deg); }
+.fun-cards .fun-card:nth-child(2) { transform: rotate(-0.6deg); }
+.fun-cards .fun-card:nth-child(3) { transform: rotate(0.5deg); }
+.fun-cards .fun-card:nth-child(1):hover { transform: rotate(0.8deg) translate(-2px,-2px); }
+.fun-cards .fun-card:nth-child(2):hover { transform: rotate(-0.6deg) translate(-2px,-2px); }
+.fun-cards .fun-card:nth-child(3):hover { transform: rotate(0.5deg) translate(-2px,-2px); }
+.fun-emoji {
+  font-size: 2rem;
+  width: 52px; height: 52px;
+  border-radius: 14px;
+  border: 2px solid var(--text);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.fun-card:nth-child(1) .fun-emoji { background: var(--purple2); }
+.fun-card:nth-child(2) .fun-emoji { background: var(--yellow2); }
+.fun-card:nth-child(3) .fun-emoji { background: var(--coral2);  }
+.fun-info h4 { font-size: 0.92rem; font-weight: 900; color: var(--text); margin-bottom: 3px; }
+.fun-info p  { font-size: 0.8rem; color: var(--muted); line-height: 1.4; }
+
+/* ── PURPLE POLKA BAND ── */
+.band {
+  background: var(--purple);
+  border: var(--border);
+  border-radius: 28px;
+  padding: 44px 48px;
+  margin-bottom: 56px;
+  box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
+}
+.band::before {
+  content: "";
+  position: absolute; inset: 0;
+  background-image: radial-gradient(circle, rgba(255,255,255,0.15) 1.5px, transparent 1.5px);
+  background-size: 22px 22px;
+  pointer-events: none;
+}
+.band .section-label { color: rgba(255,255,255,0.75); position: relative; z-index: 1; }
+.band .section-label::before { color: var(--yellow); }
+.band h2 { color: var(--white); position: relative; z-index: 1; }
+.band h2 .ww { text-decoration-color: var(--yellow); }
+.band > p { position: relative; z-index: 1; }
+
+/* ── SETTINGS GRID ── */
+.settings-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 16px;
+  position: relative;
+  z-index: 1;
+}
+.setting-tile {
+  background: var(--white);
+  border: 2.5px solid var(--text);
+  border-radius: 18px;
+  padding: 22px 14px;
+  text-align: center;
+  box-shadow: 4px 4px 0 var(--text);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.setting-tile:hover { transform: translate(-2px,-2px); box-shadow: 6px 6px 0 var(--text); }
+.setting-tile .t-icon { font-size: 2rem; margin-bottom: 10px; }
+.setting-tile h4 { font-size: 0.88rem; font-weight: 900; color: var(--text); margin-bottom: 4px; }
+.setting-tile p  { font-size: 0.76rem; color: var(--muted); line-height: 1.45; }
+.setting-tile:nth-child(1) { background: var(--purple2); }
+.setting-tile:nth-child(2) { background: var(--yellow2); }
+.setting-tile:nth-child(3) { background: var(--coral2);  }
+.setting-tile:nth-child(4) { background: var(--green2);  }
+
+/* ── YELLOW DIR BAND ── */
+.dir-inner {
+  background: var(--yellow);
+  border: var(--border);
+  border-radius: 28px;
+  padding: 44px 48px;
+  box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
+}
+.dir-inner::after {
+  content: "DIR";
+  position: absolute; right: -16px; top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Baloo 2', cursive;
+  font-size: 12rem; font-weight: 900;
+  color: rgba(45,42,62,0.07);
+  line-height: 1; pointer-events: none;
+}
+.dir-inner .section-label { color: #9a7212; position: relative; z-index: 1; }
+.dir-inner .section-label::before { color: var(--coral); }
+.dir-inner h2 { position: relative; z-index: 1; }
+.dir-inner h2 .ww { text-decoration-color: var(--purple); }
+.dir-body, .dir-inner > p {
+  font-size: 1rem;
+  line-height: 1.78;
+  color: #3a3650;
+  max-width: 580px;
+  margin-bottom: 32px;
+  font-weight: 600;
+  position: relative; z-index: 1;
+}
+.dir-chips { display: flex; gap: 14px; flex-wrap: wrap; position: relative; z-index: 1; }
+.dir-chip {
+  background: var(--white);
+  border: 2.5px solid var(--text);
+  border-radius: 14px;
+  padding: 14px 20px;
+  box-shadow: var(--shadow-sm);
+}
+.dir-chip h5 {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: 900;
+  color: var(--purple);
+  margin-bottom: 4px;
+}
+.dir-chip p { font-size: 0.9rem; font-weight: 800; color: var(--text); }
+
+/* ── EDUCATION CARD ── */
+.edu-card {
+  background: var(--white);
+  border: var(--border);
+  border-radius: 22px;
+  padding: 28px 32px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  box-shadow: var(--shadow);
+}
+.edu-icon {
+  width: 64px; height: 64px;
+  border-radius: 16px;
+  background: var(--purple2);
+  border: 2.5px solid var(--text);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 2rem; flex-shrink: 0;
+}
+.edu-info h3 { font-size: 1.05rem; font-weight: 900; margin-bottom: 4px; }
+.edu-info p  { font-size: 0.9rem; color: var(--muted); font-weight: 600; line-height: 1.5; }
+.edu-year {
+  margin-left: auto;
+  background: var(--coral); color: var(--white);
+  font-weight: 900; font-size: 1rem;
+  padding: 8px 20px; border-radius: 50px;
+  border: 2.5px solid var(--text);
+  box-shadow: var(--shadow-sm); flex-shrink: 0;
+}
+
+/* ── HOME NAV CARDS ── */
+.nav-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-bottom: 56px;
+}
+.nav-card {
+  background: var(--white);
+  border: 2.5px solid var(--text);
+  border-radius: 20px;
+  padding: 24px 22px;
+  box-shadow: 4px 4px 0 var(--text);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.nav-card:hover { transform: translate(-2px,-2px); box-shadow: var(--shadow); }
+.nav-card .nc-icon { font-size: 1.8rem; margin-bottom: 4px; }
+.nav-card h3 { font-size: 1rem; margin-bottom: 4px; }
+.nav-card p  { font-size: 0.82rem; color: var(--muted); line-height: 1.5; flex: 1; }
+.nav-card .nc-arrow { font-size: 0.8rem; font-weight: 900; color: var(--purple); margin-top: 8px; }
+.nav-card:nth-child(1) { background: var(--purple2); }
+.nav-card:nth-child(2) { background: var(--yellow2); }
+.nav-card:nth-child(3) { background: var(--coral2);  }
+
+/* ── ARTICLE CARDS ── */
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+.article-card {
+  background: var(--white);
+  border: 2.5px solid var(--text);
+  border-radius: 20px;
+  padding: 28px 26px;
+  box-shadow: 4px 4px 0 var(--text);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform 0.15s, box-shadow 0.15s;
+  color: inherit;
+}
+.article-card:hover { box-shadow: var(--shadow); }
+.article-card .ac-tag {
+  display: inline-block;
+  background: var(--purple2);
+  color: var(--purple);
+  font-size: 0.72rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 4px 12px;
+  border-radius: 50px;
+  border: 1.5px solid var(--purple);
+  width: fit-content;
+}
+.article-card h3 { font-size: 1.05rem; line-height: 1.35; }
+.article-card .ac-meta { font-size: 0.78rem; color: var(--muted); font-weight: 600; }
+.article-card p  { font-size: 0.88rem; color: #4a4760; line-height: 1.65; flex: 1; }
+.article-card .ac-read {
+  font-size: 0.82rem; font-weight: 900; color: var(--purple);
+  border-top: 1.5px dashed #d9d3f0;
+  padding-top: 12px; margin-top: 4px;
+}
+.article-card:nth-child(odd)       { transform: rotate(0.4deg); }
+.article-card:nth-child(even)      { transform: rotate(-0.3deg); }
+.article-card:nth-child(odd):hover { transform: rotate(0.4deg) translate(-2px,-2px); box-shadow: var(--shadow); }
+.article-card:nth-child(even):hover{ transform: rotate(-0.3deg) translate(-2px,-2px); box-shadow: var(--shadow); }
+
+/* ── TIMELINE ── */
+.timeline { position: relative; padding-left: 28px; }
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 7px; top: 4px; bottom: 4px; width: 3px;
+  background-image: repeating-linear-gradient(
+    to bottom, var(--purple) 0, var(--purple) 8px, transparent 8px, transparent 14px
+  );
+  border-radius: 2px;
+}
+.tl-item { position: relative; margin-bottom: 32px; }
+.tl-item::before {
+  content: "✦";
+  position: absolute;
+  left: -24px; top: 2px;
+  font-size: 0.9rem;
+  color: var(--yellow);
+  background: var(--bg);
+  line-height: 1;
+}
+.tl-year {
+  display: inline-block;
+  background: var(--purple); color: var(--white);
+  font-size: 0.72rem; font-weight: 900;
+  padding: 3px 12px; border-radius: 50px;
+  border: 2px solid var(--text);
+  box-shadow: 2px 2px 0 var(--text);
+  margin-bottom: 6px;
+}
+.tl-item h4 { font-size: 1rem; margin-bottom: 4px; }
+.tl-item p  { font-size: 0.88rem; color: var(--muted); line-height: 1.55; font-weight: 600; }
+
+/* ── SOCIAL / CONNECT ── */
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.social-link-card {
+  background: var(--white);
+  border: 2.5px solid var(--text);
+  border-radius: 18px;
+  padding: 20px 22px;
+  display: flex; align-items: center; gap: 16px;
+  box-shadow: 4px 4px 0 var(--text);
+  text-decoration: none; color: var(--text);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.social-link-card:hover { transform: translate(-2px,-2px); box-shadow: var(--shadow); }
+.social-icon {
+  width: 48px; height: 48px;
+  border-radius: 14px;
+  border: 2px solid var(--text);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.6rem; flex-shrink: 0;
+}
+.social-info strong { display: block; font-size: 0.92rem; font-weight: 900; margin-bottom: 2px; }
+.social-info span   { font-size: 0.78rem; color: var(--muted); font-weight: 600; }
+
+/* ── INQUIRY BOX ── */
+.inquiry-box {
+  background: var(--purple2);
+  border: var(--border);
+  border-radius: 24px;
+  padding: 36px 40px;
+  box-shadow: var(--shadow);
+  margin-bottom: 40px;
+}
+.inquiry-box p {
+  font-size: 1rem; color: #4a4760;
+  line-height: 1.75; margin-bottom: 18px; font-weight: 600;
+}
+a.btn {
+  display: inline-block;
+  background: var(--purple); color: var(--white);
+  font-weight: 900; font-size: 0.9rem;
+  padding: 12px 26px; border-radius: 50px;
+  border: 2.5px solid var(--text);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+a.btn:hover { transform: translate(-1px,-1px); box-shadow: 4px 4px 0 var(--text); }
+
+/* ── CREDENTIAL BLOCKS ── */
+/* FIX: position:relative is required for the ::before accent stripe */
+.cred-block {
+  background: var(--white);
+  border: var(--border);
+  border-radius: 22px;
+  padding: 32px 36px 32px 44px; /* extra left padding for the stripe */
+  box-shadow: var(--shadow);
+  margin-bottom: 22px;
+  position: relative; /* ← CRITICAL: anchors the ::before stripe */
+  overflow: hidden;
+}
+.cred-block::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 10px;
+  background: var(--purple);
+  border-radius: 4px 0 0 4px;
+}
+.cred-block.yellow::before { background: var(--yellow); }
+.cred-block.coral::before  { background: var(--coral);  }
+.cred-block.green::before  { background: var(--green);  }
+.cred-block h3 { font-size: 1.2rem; margin-bottom: 6px; }
+.cred-block .cb-meta {
+  font-size: 0.8rem; color: var(--muted);
+  font-weight: 700; margin-bottom: 14px;
+  text-transform: uppercase; letter-spacing: 0.8px;
+}
+.cred-block p {
+  font-size: 0.95rem; color: #4a4760;
+  line-height: 1.72; font-weight: 600;
+}
+.cred-block p + p { margin-top: 12px; }
+
+/* ── EXPERIENCE CARDS ── */
+.exp-card {
+  background: var(--white);
+  border: var(--border);
+  border-radius: 24px;
+  padding: 36px 40px;
+  box-shadow: var(--shadow);
+  margin-bottom: 24px;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 28px;
+  align-items: start;
+}
+.exp-icon-box {
+  width: 72px; height: 72px;
+  border-radius: 18px;
+  border: 2.5px solid var(--text);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 2.2rem;
+}
+.exp-card:nth-child(1) .exp-icon-box { background: var(--purple2); }
+.exp-card:nth-child(2) .exp-icon-box { background: var(--yellow2); }
+.exp-card:nth-child(3) .exp-icon-box { background: var(--coral2);  }
+.exp-card:nth-child(4) .exp-icon-box { background: var(--green2);  }
+.exp-content h3 { font-size: 1.3rem; margin-bottom: 8px; }
+.exp-content p  {
+  font-size: 0.96rem; color: #4a4760;
+  line-height: 1.75; font-weight: 600; margin-bottom: 12px;
+}
+.exp-content p:last-child { margin-bottom: 0; }
+
+/* ── TWO-COLUMN GRID (philosophy / populations) ── */
+.two-col-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+
+/* ── SITE FOOTER ── */
+.site-footer { background: var(--text); color: rgba(255,255,255,0.55); position: relative; z-index: 1; }
+.footer-inner {
+  max-width: 980px; margin: 0 auto;
+  padding: 52px 28px 36px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+.footer-brand strong {
+  display: block;
+  font-family: 'Baloo 2', cursive;
+  font-size: 1.2rem; color: var(--white); margin-bottom: 6px;
+}
+.footer-brand p { font-size: 0.84rem; line-height: 1.65; }
+.footer-stars { font-size: 1.1rem; letter-spacing: 6px; margin-bottom: 10px; display: block; }
+.footer-col h4 {
+  font-family: 'Baloo 2', cursive;
+  font-size: 0.88rem; font-weight: 800;
+  color: rgba(255,255,255,0.5);
+  text-transform: uppercase; letter-spacing: 1.5px;
+  margin-bottom: 14px;
+}
+.footer-col ul { list-style: none; }
+.footer-col ul li { margin-bottom: 8px; }
+.footer-col ul li a {
+  font-size: 0.88rem; font-weight: 700;
+  color: rgba(255,255,255,0.75);
+  transition: color 0.15s;
+}
+.footer-col ul li a:hover { color: var(--yellow); }
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  max-width: 980px; margin: 0 auto;
+  padding: 20px 28px;
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: 0.78rem; color: rgba(255,255,255,0.35);
+  flex-wrap: wrap; gap: 8px;
+}
+.footer-bottom a { color: rgba(255,255,255,0.45); text-decoration: underline; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 860px) {
+  .settings-grid  { grid-template-columns: repeat(2,1fr); }
+  .nav-cards      { grid-template-columns: 1fr 1fr; }
+  .social-grid    { grid-template-columns: 1fr; }
+  .footer-inner   { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 768px) {
+  /* Mobile nav */
+  .nav-toggle { display: flex; }
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 64px; left: 0; right: 0;
+    background: var(--white);
+    border-bottom: var(--border);
+    flex-direction: column;
+    padding: 16px 20px 20px;
+    gap: 4px;
+    align-items: stretch;
+  }
+  .nav-links.open { display: flex; }
+  .nav-links a { padding: 10px 16px; border-radius: 12px; font-size: 0.95rem; }
+  .nav-links .nav-cta a { text-align: center; }
+  .site-header { position: relative; }
+
+  /* Layout collapses */
+  .hero          { grid-template-columns: 1fr; gap: 36px; padding: 48px 0 40px; }
+  .hero-card     { max-width: 400px; margin: 0 auto; }
+  .about-grid    { grid-template-columns: 1fr; }
+  .two-col-grid  { grid-template-columns: 1fr; }
+  .nav-cards     { grid-template-columns: 1fr; }
+  .article-grid  { grid-template-columns: 1fr; }
+  .exp-card      { grid-template-columns: 1fr; gap: 16px; padding: 28px 24px; }
+  .edu-card      { flex-wrap: wrap; }
+  .edu-year      { margin-left: 0; }
+
+  /* Bands */
+  .band     { padding: 32px 24px; }
+  .dir-inner{ padding: 32px 24px; }
+  .dir-inner::after { display: none; }
+  .dir-chips { flex-direction: column; }
+
+  /* Footer */
+  .footer-inner  { grid-template-columns: 1fr; gap: 28px; }
+  .footer-bottom { flex-direction: column; text-align: center; }
+
+  /* Misc */
+  .inquiry-box   { padding: 28px 24px; }
+  .cred-block    { padding: 24px 20px 24px 32px; }
+}
+
+@media (max-width: 480px) {
+  .page-wrap { padding: 0 18px 60px; }
+  .site-nav  { padding: 0 18px; }
+  h1         { font-size: 2.2rem; }
+}
+
+  </style>
+
+  <!-- JSON-LD: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home",  "item": "https://kaylenfletcher.com/" },
+      { "@type": "ListItem", "position": 2, "name": "About", "item": "https://kaylenfletcher.com/about.html" }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html" class="nav-logo">Kaylen <span class="accent">Fletcher</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="credentials.html">Credentials</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li class="nav-cta"><a href="connect.html">Connect</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header ph-yellow">
+    <div class="page-wrap">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span aria-hidden="true">›</span>
+        <span aria-current="page">About</span>
+      </nav>
+      <div class="sticker coral r-pos">✨ About Kaylen</div>
+      <h1>About Kaylen <span class="squiggle">Fletcher</span></h1>
+      <p class="page-lead">
+        Pediatric OT, DIRFloortime® clinician, macramé enthusiast, and proud weenie dog mom.
+      </p>
+    </div>
+  </div>
+
+  <main>
+    <div class="page-wrap" style="padding-top:56px;">
+
+      <!-- BIO SECTION -->
+      <section aria-labelledby="bio-heading" style="margin-bottom:56px;">
+        <div class="section-label">Biography</div>
+        <h2 id="bio-heading">A career devoted to <span class="ww">little ones</span></h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              <strong>Kaylen Fletcher, OTR/L</strong> graduated from the
+              <strong>University of Tennessee Health Science Center</strong> in 2015 with a Master's degree in
+              Occupational Therapy. From her very first day in the field, she knew she was exactly where she
+              was meant to be — working alongside children and families.
+            </p>
+            <p>
+              Over the course of her career, Kaylen has devoted herself to the <strong>pediatric population</strong>
+              across a wide variety of settings: early intervention, home health, schools, and outpatient clinics.
+              She has supported children with a diverse range of diagnoses and ages, tailoring her approach to
+              each child's unique strengths, needs, and environment.
+            </p>
+            <p>
+              Kaylen is a <strong>DIR-Proficient clinician</strong> and holds the highest level of DIRFloortime®
+              certification — the <strong>Certificate of Proficiency</strong>. Her approach is grounded in the
+              belief that play is not just a reward or a break from therapy — play <em>is</em> the therapy.
+              She meets every child with curiosity, warmth, and a healthy respect for what each individual
+              child brings to the room.
+            </p>
+            <p>
+              Whether she's supporting a toddler in their living room or working alongside a school team,
+              Kaylen's goal remains the same: help kids thrive in the ways that matter most to them and
+              their families.
+            </p>
+          </div>
+
+          <div class="fun-cards">
+            <div class="fun-card">
+              <div class="fun-emoji" aria-hidden="true">🧶</div>
+              <div class="fun-info">
+                <h4>Macramé Artist</h4>
+                <p>Finds creative flow in fiber arts and knotting outside the clinic — her walls show it.</p>
+              </div>
+            </div>
+            <div class="fun-card">
+              <div class="fun-emoji" aria-hidden="true">📚</div>
+              <div class="fun-info">
+                <h4>Avid Reader</h4>
+                <p>Always has a book on the nightstand — or five. Probably three of them are half-finished.</p>
+              </div>
+            </div>
+            <div class="fun-card">
+              <div class="fun-emoji" aria-hidden="true">🐾</div>
+              <div class="fun-info">
+                <h4>Weenie Dog Wrangler</h4>
+                <p>Proud dachshund mom. They run the household — she just pays the bills.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="squig" />
+
+      <!-- PHILOSOPHY -->
+      <section aria-labelledby="philosophy-heading" style="margin-bottom:56px;">
+        <div class="section-label">Philosophy</div>
+        <h2 id="philosophy-heading">Play is <span class="ww">the work</span></h2>
+        <div class="two-col-grid">
+          <div class="cred-block" style="padding:28px 32px;">
+            <div class="cred-block-inner">
+              <h3>Child-led, relationship-first</h3>
+              <p style="font-size:0.95rem; color:#4a4760; line-height:1.75; font-weight:600; margin-top:8px;">
+                Kaylen believes that every child is the expert on themselves. Her role is to follow
+                their lead, build a trusting relationship, and create the conditions for growth — not
+                to impose a one-size-fits-all program.
+              </p>
+            </div>
+          </div>
+          <div class="cred-block yellow" style="padding:28px 32px;">
+            <div class="cred-block-inner">
+              <h3>Family as partners</h3>
+              <p style="font-size:0.95rem; color:#4a4760; line-height:1.75; font-weight:600; margin-top:8px;">
+                Progress doesn't stop when the session ends. Kaylen works closely with parents, caregivers,
+                and school teams to extend support into everyday routines and environments — because that's
+                where real life happens.
+              </p>
+            </div>
+          </div>
+          <div class="cred-block coral" style="padding:28px 32px;">
+            <div class="cred-block-inner">
+              <h3>Play as the primary vehicle</h3>
+              <p style="font-size:0.95rem; color:#4a4760; line-height:1.75; font-weight:600; margin-top:8px;">
+                Play isn't a break from therapy — it's how children learn, grow, and make sense of the world.
+                Kaylen's sessions are joyful on purpose.
+              </p>
+            </div>
+          </div>
+          <div class="cred-block green" style="padding:28px 32px;">
+            <div class="cred-block-inner">
+              <h3>Meeting kids where they are</h3>
+              <p style="font-size:0.95rem; color:#4a4760; line-height:1.75; font-weight:600; margin-top:8px;">
+                Whether a child is 6 months old or 16 years old, whether they're in a home, a classroom,
+                or a clinic — Kaylen adapts her approach to meet them there, as they are, right now.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="squig" />
+
+      <!-- TIMELINE -->
+      <section aria-labelledby="timeline-heading" style="margin-bottom:72px;">
+        <div class="section-label">Career Highlights</div>
+        <h2 id="timeline-heading">The <span class="ww">journey so far</span></h2>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-year">2015</div>
+            <h4>Graduated from UTHSC</h4>
+            <p>Earned a Master of Science in Occupational Therapy from the University of Tennessee Health Science Center and obtained OTR/L licensure.</p>
+          </div>
+          <div class="tl-item">
+            <div class="tl-year">2015–2018</div>
+            <h4>Early Intervention &amp; Home Health</h4>
+            <p>Began her career working with the youngest children — birth through age 3 — supporting families in their homes and natural environments.</p>
+          </div>
+          <div class="tl-item">
+            <div class="tl-year">2018–2021</div>
+            <h4>School-Based Practice</h4>
+            <p>Brought her pediatric expertise into educational settings, collaborating with teachers, families, and specialists to support students across diverse needs.</p>
+          </div>
+          <div class="tl-item">
+            <div class="tl-year">2021–Present</div>
+            <h4>Outpatient &amp; DIRFloortime® Specialization</h4>
+            <p>Deepened her clinical expertise in outpatient settings while pursuing and achieving the highest level of DIRFloortime® certification — the Certificate of Proficiency.</p>
+          </div>
+          <div class="tl-item">
+            <div class="tl-year">Present</div>
+            <h4>DIR-Proficient Clinician</h4>
+            <p>Currently practicing as a DIRFloortime® Certificate of Proficiency holder, bringing play-based, relationship-centered therapy to children and families.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section aria-labelledby="about-cta-heading" style="margin-bottom:24px;">
+        <div class="dir-inner">
+          <div class="section-label">Want to know more?</div>
+          <h2 id="about-cta-heading">Credentials, experience, <span class="ww">and more</span></h2>
+          <p class="dir-body">
+            Dig deeper into Kaylen's professional background, certifications, and the settings where she's built her career.
+          </p>
+          <div class="dir-chips">
+            <div class="dir-chip">
+              <h5>Certifications</h5>
+              <p><a href="credentials.html" style="color:var(--purple); font-weight:800; text-decoration:underline;">View credentials →</a></p>
+            </div>
+            <div class="dir-chip">
+              <h5>Clinical Settings</h5>
+              <p><a href="experience.html" style="color:var(--purple); font-weight:800; text-decoration:underline;">See experience →</a></p>
+            </div>
+            <div class="dir-chip">
+              <h5>Get in Touch</h5>
+              <p><a href="connect.html" style="color:var(--purple); font-weight:800; text-decoration:underline;">Connect →</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-stars" aria-hidden="true">🌟 💜 🐾</span>
+        <strong>Kaylen Fletcher, OTR/L</strong>
+        <p>Pediatric Occupational Therapist<br/>DIRFloortime® Certificate of Proficiency</p>
+      </div>
+      <nav class="footer-col" aria-label="Footer navigation">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="credentials.html">Credentials</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="connect.html">Connect</a></li>
+        </ul>
+      </nav>
+      <div class="footer-col">
+        <h4>Find Kaylen</h4>
+        <ul>
+          <li><a href="https://wonderingwaystherapy.com" target="_blank" rel="noopener">Wondering Ways Therapy ↗</a></li>
+          <li><a href="https://www.linkedin.com/in/kaylen-fletcher" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+          <li><a href="https://www.instagram.com/kaylen_fletcher_ot" target="_blank" rel="noopener">Instagram ↗</a></li>
+          <li><a href="https://www.facebook.com/kaylenfletcherot" target="_blank" rel="noopener">Facebook ↗</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Kaylen Fletcher, OTR/L. All rights reserved.</span>
+      <span>Pediatric Occupational Therapist · Tennessee</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
